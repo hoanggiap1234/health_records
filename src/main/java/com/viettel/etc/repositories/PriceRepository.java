@@ -1,0 +1,1 @@
+package com.viettel.etc.repositories;import com.viettel.etc.dto.DrugsDTO;import com.viettel.etc.xlibrary.core.entities.ResultSelectEntity;import java.util.List;public interface PriceRepository {    public Object getDoctorExamPrice(Integer doctorId);    public Object getServicePrice(Integer serviceId);}

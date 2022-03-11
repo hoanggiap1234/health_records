@@ -1,0 +1,1 @@
+package com.viettel.etc.services;import com.viettel.etc.dto.MedicalHealthcareRegimenDetailDTO;import java.util.List;/** * Autogen class:  *  * @author ToolGen * @date Wed Oct 14 10:02:25 ICT 2020 */public interface MedicalHealthcareRegimenDetailService {    public List<MedicalHealthcareRegimenDetailDTO> getMedicalHealthcareRegimenDetail(Integer patientRegimenId);}

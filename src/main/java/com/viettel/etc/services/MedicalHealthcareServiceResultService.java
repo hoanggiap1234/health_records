@@ -1,0 +1,2 @@
+package com.viettel.etc.services;import com.viettel.etc.dto.MedicalHealthcareServiceResultDTO;/** * Autogen class:  *  * @author ToolGen * @date Thu Nov 05 14:23:25 ICT 2020 */public interface MedicalHealthcareServiceResultService {        public Object getMedicalHealthcareServiceResult(MedicalHealthcareServiceResultDTO itemParamsEntity);
+}

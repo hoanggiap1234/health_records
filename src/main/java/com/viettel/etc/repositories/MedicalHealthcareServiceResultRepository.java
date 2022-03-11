@@ -1,0 +1,2 @@
+package com.viettel.etc.repositories;import com.viettel.etc.dto.MedicalHealthcareServiceResultDTO;import java.util.List;import com.viettel.etc.xlibrary.core.entities.ResultSelectEntity;/** * Autogen class Repository Interface:  *  * @author toolGen * @date Thu Nov 05 14:23:25 ICT 2020 */public interface MedicalHealthcareServiceResultRepository {    public ResultSelectEntity getMedicalHealthcareServiceResult(MedicalHealthcareServiceResultDTO itemParamsEntity);
+}

@@ -1,0 +1,1 @@
+package com.viettel.etc.repositories;import com.viettel.etc.dto.DrugsDTO;import java.util.List;/** * Autogen class Repository Interface:  *  * @author toolGen * @date Thu Aug 27 16:23:18 ICT 2020 */public interface DrugsRepository {    public Object getDrugs(DrugsDTO itemParamsEntity);    List<DrugsDTO> getListDrug(DrugsDTO itemParamsEntity);}
